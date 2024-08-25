@@ -13,10 +13,8 @@ Vamos lá!
 - [Instalação](#instalação)
 - [Configuração](#configuração)
 - [Rodando o Projeto](#rodando-o-projeto)
-- [Rodando Testes](#rodando-testes)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Contribuição](#contribuição)
-- [Licença](#licença)
 
 ## Pré-requisitos
 
