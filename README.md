@@ -1,9 +1,14 @@
 # FastAPI + SQLAlchemy + Dependency Injection Template
 
 Olá, como vai?
+
 Ao longo da minha carreira no desenvolvimento de software, vi e experimentei diversos design patterns muito bons e, um dos que mais aprecio é o Dependency Injection (DI).
-O DI já é bem difundido em .NET e Springboot por exemplo, porém no Python notei que, apesar de terem vários framework de DI, tive uma dificuldade de encontrar um framework que se assemelhasse aos padrôes definidos pelo .NET por exemplo.
-Então, investi um tempo e criei este repositório pra usar nos meus projetos Python e compartilhar com vocês! Este repositório fornece um template básico para criar uma aplicação FastAPI com [SQLAlchemy](https://www.sqlalchemy.org/) (ORM) e [Inject](https://github.com/ivankorobkov/python-inject) (Dependency Injection). 
+
+O DI já é bem difundido em .NET e Springboot por exemplo, porém no Python notei que, apesar de terem vários framework de DI, tive dificuldade de encontrar um framework que se assemelhasse aos padrôes definidos pelo .NET por exemplo.
+
+Então, investi um tempo e criei este repositório pra usar nos meus projetos Python e compartilhar com vocês! 
+
+Este repositório fornece um template básico para criar uma aplicação FastAPI com [SQLAlchemy](https://www.sqlalchemy.org/) (ORM) e [Inject](https://github.com/ivankorobkov/python-inject) (Dependency Injection). 
 
 Vamos lá!
 
