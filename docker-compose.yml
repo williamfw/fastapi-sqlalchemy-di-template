@@ -1,0 +1,18 @@
+name: fastapi-template
+
+services:
+  db:
+    image: postgres:17beta2-alpine3.20
+    restart: always
+    shm_size: 128mb
+    environment:
+      POSTGRES_USER: fastapi
+      POSTGRES_PASSWORD: fastapi123456
+      POSTGRES_DB: fastapi-template
+    ports:
+      - "5432:5432"
+    networks:
+      - freela-networks
+
+networks:
+  freela-networks:

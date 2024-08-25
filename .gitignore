@@ -1,0 +1,88 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.sqlite
+*.pdb
+
+# If you are using PostgreSQL, MySQL, or other databases, you might also want to ignore specific files.
+*.pgsql
+*.mysql
+
+# If you are using the Django staticfiles
+staticfiles/
+static/
+
+# Media files
+media/
+
+# Private stuff:
+*.pem
+
+# Environments
+.env
+*.env
+
+# Pipenv
+Pipfile
+Pipfile.lock
+
+# virtualenv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# dotenv
+.env
+*.env
+
+# virtualenv
+.venv/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pyright
+.pyright
+
+# Pyre type checker
+.pyre/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+*.iml
+
+# Coverage reports
+html

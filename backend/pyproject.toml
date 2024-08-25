@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "api"
+version = "0.1.0"
+description = ""
+authors = ["William Fabrício Werling <williamf.werling@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = {extras = ["standard"], version = "^0.112.0"}
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.1"
+sqlalchemy = {extras = ["asyncio"], version = "^2.0.32"}
+asyncpg = "^0.29.0"
+pydantic-settings = "^2.4.0"
+inject = "^5.2.1"
+
+
+[tool.poetry.group.dev.dependencies]
+alembic = "^1.13.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
